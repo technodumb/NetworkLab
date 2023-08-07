@@ -1,10 +1,6 @@
 #include<stdio.h>
 #include<stdlib.h>
 
-int min(int a, int b) {
-    return a < b ? a : b;
-}
-
 int main(){
     int bucketValue=0, bucketSize=0, totalCount=0, noOfPackets, outputRate;
     int incomingPackets[100], remainingPackets[100], outgoingPackets[100], droppedPackets[100];
